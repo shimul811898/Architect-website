@@ -116,9 +116,10 @@ span{
 @media screen and (max-width:576px){
 .navbar,.list{
       flex-direction: column;
+       max-width: 100%;
     }
     header{
-       width: 100%;
+       max-width: 100%;
     }
    
     .list{
@@ -130,6 +131,7 @@ span{
  .container-info{
     text-align: center;
     margin:0;
+     max-width: 100%;
  }
 
 
