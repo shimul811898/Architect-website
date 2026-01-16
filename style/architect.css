@@ -81,6 +81,10 @@ button{
     justify-content: center;
     margin-top: 5rem;
  }
+ .container{
+    max-width: 100%;
+    padding: 3rem 6rem 0 8.5rem;
+ }
 
  .container-img{
     display: grid;
@@ -88,14 +92,19 @@ button{
     grid-template-columns: repeat(2,1fr);
  }
 .container-info{
-    margin-left:4.5rem;
+    margin-left:4rem;
     margin-top: 20px;
+}
+.container-info h1{
+    font-size: 2rem; 
+    color:#131313;
 }
 .container-info p{
     color: #727272;
     margin:1.24rem 0 -0.5rem 0;
     line-height: 1.25rem;
-    font-size: 1rem;
+    font-size: 0.6rem;
+    max-width: 100%;
 }
 #Quick{
     color: #727272;
@@ -108,13 +117,16 @@ span{
 .navbar,.list{
       flex-direction: column;
     }
+    header{
+       width: 100%;
+    }
    
     .list{
      gap: 20px;
 }
  .container-img,.main-container{
     display: block;
- }
+}
  .container-info{
     text-align: center;
     margin:0;
